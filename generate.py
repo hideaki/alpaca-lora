@@ -11,7 +11,7 @@ from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
 
 tokenizer = LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf")
 
-LOAD_8BIT = False
+LOAD_8BIT = True
 BASE_MODEL = "decapoda-research/llama-7b-hf"
 LORA_WEIGHTS = "tloen/alpaca-lora-7b"
 
